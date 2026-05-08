@@ -1,0 +1,144 @@
+.contenedorNotaItem {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    border: solid 1px #c084ae;
+    background-color: #202020;
+    margin: 0 auto;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    border-radius: 1em;
+    padding: 20px;
+    z-index: 0;
+
+    h4 {
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    p {
+        display: -webkit-box;
+        line-clamp: 8;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &:hover {
+        border-color: #c56baa;
+        transform: scale(1.02);
+        background-color: #474747;
+        outline: solid 3px #c56baa;
+        transition: all 0.2s ease-in-out;
+
+        .btnOpciones {
+            display: flex;
+            padding: 2px;
+            border-radius: 100%;
+            height: fit-content;
+            position: relative;
+        }
+    }
+}
+
+.fijado {
+    background-color: #976287 !important;
+    svg {
+        fill: #ffffff;
+        flex-shrink: 0;
+    }
+
+    &:hover {
+        svg {
+            display: none;
+        }
+
+        .btnOpciones svg {
+            display: flex !important;
+        }
+    }
+}
+
+.dragging {
+    outline: none !important;
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+.parteSuperior {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+.parteInferior {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnOpciones {
+    display: none;
+    &:hover {
+        svg {
+            stroke: #c084ae;
+        }
+
+        .menu {
+            display: block;
+        }
+    }
+
+    &:active {
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: white;
+            border-radius: inherit;
+            animation: resaltar 0.5s ease-out forwards;
+            pointer-events: none;
+        }
+    }
+}
+
+.btnOpciones {
+    position: relative;
+    display: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 4px;
+    z-index: 50;
+    min-width: 120px;
+}
+
+.menu button {
+    all: unset;
+    display: flex;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+    z-index: 50;
+
+    &:hover {
+        background-color: #474747;
+    }
+}
+
+.iconosOpc {
+    stroke: #e2e2e2 !important;
+    fill: none !important;
+    margin-right: 10px;
+}

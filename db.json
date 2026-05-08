@@ -1,0 +1,247 @@
+{
+  "notas": [
+    {
+      "titulo": "Idea rápida",
+      "nota": "Recordar revisar el código antes de subirlo.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 0,
+      "id": "aZ9xP1LmQ2",
+      "lastUpdatedAt": "2026-04-29T11:39:08.254Z"
+    },
+    {
+      "titulo": "Reflexión",
+      "nota": "Hoy avancé bastante en el proyecto.\n\nMe di cuenta de que organizar mejor los módulos desde el principio ahorra mucho tiempo después.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 1,
+      "id": "Kp3Rt8YwV7",
+      "lastUpdatedAt": "2026-04-29T11:39:10.623Z"
+    },
+    {
+      "titulo": "Pendiente",
+      "nota": "Implementar validaciones en el formulario de login.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 2,
+      "id": "xM7nQ2BvC9",
+      "lastUpdatedAt": "2026-04-29T11:39:03.094Z"
+    },
+    {
+      "titulo": "Apunte",
+      "nota": "Los arrays dinámicos permiten redimensionar estructuras sin necesidad de recrearlas constantemente.\n\nEsto mejora la eficiencia en muchos casos.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 3,
+      "id": "L0pXc4FhT2",
+      "lastUpdatedAt": "2026-04-29T11:39:06.198Z"
+    },
+    {
+      "titulo": "Recordatorio",
+      "nota": "Estudiar algoritmos de planificación: FIFO y Round Robin.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 4,
+      "id": "U8kDq3ZrW1",
+      "lastUpdatedAt": "2026-04-29T11:39:00.830Z"
+    },
+    {
+      "titulo": "Idea",
+      "nota": "Crear una pequeña app para gestionar tareas.\n\nPodría usar JSON Server como backend falso y practicar peticiones HTTP.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 5,
+      "id": "N5bJt9EwQ4",
+      "lastUpdatedAt": "2026-04-29T11:39:07.110Z"
+    },
+    {
+      "titulo": "Nota técnica",
+      "nota": "El archivo pagefile.sys se usa como memoria virtual en Windows.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 6,
+      "id": "R2mVx8KpL6",
+      "lastUpdatedAt": "2026-04-29T11:39:04.181Z"
+    },
+    {
+      "titulo": "Reflexión corta",
+      "nota": "A veces menos código es mejor que más código.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 7,
+      "id": "W7cZp1AqS9",
+      "lastUpdatedAt": "2026-04-29T11:38:59.542Z"
+    },
+    {
+      "titulo": "Aprendizaje",
+      "nota": "Hoy entendí mejor cómo funcionan las estructuras de datos.\n\nEspecialmente las listas enlazadas, que aunque no son tan usadas en alto nivel, ayudan mucho a comprender la memoria.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 8,
+      "id": "H3xTn5YvB8",
+      "lastUpdatedAt": "2026-04-29T11:39:05.382Z"
+    },
+    {
+      "titulo": "Pendiente importante",
+      "nota": "Terminar la práctica de Linux en máquina virtual antes del viernes.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 9,
+      "id": "Q9eLp2ZxM5",
+      "lastUpdatedAt": "2026-04-29T11:39:02.094Z"
+    },
+    {
+      "titulo": "Idea proyecto",
+      "nota": "Simulador de sistema operativo sencillo.\n\nIncluir gestión de procesos, planificación y memoria para entender mejor los conceptos teóricos.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 10,
+      "id": "D4rTs6WkN1",
+      "lastUpdatedAt": "2026-04-29T11:40:13.953Z"
+    },
+    {
+      "titulo": "Reflexión larga",
+      "nota": "Me estoy dando cuenta de que aprender programación no es solo memorizar sintaxis.\n\nEs más importante entender cómo resolver problemas y cómo dividirlos en partes más pequeñas.\n\nEsa habilidad es la que realmente marca la diferencia.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 12,
+      "id": "S2kYz7LhF3",
+      "lastUpdatedAt": "2026-04-29T11:32:29.047Z"
+    },
+    {
+      "titulo": "Recordatorio técnico",
+      "nota": "Revisar drivers antes de instalar hardware nuevo.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 13,
+      "id": "P6vXb1RkT9",
+      "lastUpdatedAt": "2026-04-29T11:32:26.928Z"
+    },
+    {
+      "titulo": "Nota",
+      "nota": "El bootloader es clave en el arranque del sistema.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 14,
+      "id": "Y0nCw5EoM2",
+      "lastUpdatedAt": "2026-04-29T11:32:32.720Z",
+      "fijada": true
+    },
+    {
+      "titulo": "Idea pequeña",
+      "nota": "Script BAT con menú interactivo.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 15,
+      "id": "Z3dLp8QwA7",
+      "lastUpdatedAt": "2026-04-29T11:32:36.615Z",
+      "fijada": true
+    },
+    {
+      "titulo": "Reflexión técnica",
+      "nota": "El rendimiento del sistema depende mucho de cómo se gestionan los recursos.\n\nCPU, memoria y disco deben estar equilibrados para evitar cuellos de botella.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 16,
+      "id": "E5tVr2KjH6",
+      "lastUpdatedAt": "2026-04-29T11:32:35.904Z",
+      "fijada": true
+    },
+    {
+      "titulo": "Apunte breve",
+      "nota": "Copias incrementales = menos espacio.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 17,
+      "id": "M9qXn4BzU1",
+      "lastUpdatedAt": "2026-04-29T11:32:33.872Z",
+      "fijada": false
+    },
+    {
+      "titulo": "Idea desarrollo",
+      "nota": "Crear API REST simple para practicar CRUD.\n\nUsar Node.js y almacenar datos en JSON.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 18,
+      "id": "C7hWp0LsR3",
+      "lastUpdatedAt": "2026-04-29T11:32:31.568Z",
+      "fijada": false
+    },
+    {
+      "titulo": "Reflexión personal",
+      "nota": "La constancia es más importante que la motivación.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 19,
+      "id": "B1zKm6YxD8",
+      "lastUpdatedAt": "2026-04-29T11:32:28.111Z",
+      "fijada": false
+    },
+    {
+      "titulo": "Nota larga",
+      "nota": "Hoy estuve revisando conceptos de sistemas operativos.\n\nMe costó entender la diferencia entre paginación y segmentación, pero poco a poco va quedando más claro.\n\nLa clave está en cómo se organiza la memoria.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 20,
+      "id": "F4nJt9QvS2",
+      "lastUpdatedAt": "2026-04-29T11:32:25.760Z",
+      "fijada": true
+    },
+    {
+      "titulo": "Pendiente",
+      "nota": "Optimizar tiempos de arranque en Windows.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 21,
+      "id": "G8xRp3MwL5",
+      "lastUpdatedAt": "2026-04-29T11:32:24.055Z"
+    },
+    {
+      "titulo": "Idea",
+      "nota": "App de notas con drag & drop para ordenar.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 22,
+      "id": "T2cVh7KpE1",
+      "lastUpdatedAt": "2026-04-29T11:32:23.167Z"
+    },
+    {
+      "titulo": "Apunte técnico",
+      "nota": "Round Robin usa quantum de tiempo.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 23,
+      "id": "U6wZk1DnQ9",
+      "lastUpdatedAt": "2026-04-29T11:32:21.992Z"
+    },
+    {
+      "titulo": "Reflexión",
+      "nota": "Dividir problemas grandes en pequeños facilita todo.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 24,
+      "id": "I3mXs8LqA4",
+      "lastUpdatedAt": "2026-04-29T11:39:44.152Z",
+      "fijada": true
+    },
+    {
+      "titulo": "Nota",
+      "nota": "Linux usa cron para tareas programadas.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 25,
+      "id": "O9bYp2WcH7",
+      "lastUpdatedAt": "2026-04-29T11:32:20.576Z"
+    },
+    {
+      "titulo": "Idea extendida",
+      "nota": "Podría desarrollar una herramienta que simule copias de seguridad.\n\nIncluir opciones: completa, incremental y diferencial.\n\nAsí entendería mejor sus diferencias.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 26,
+      "id": "V5rTq6ZxN0",
+      "lastUpdatedAt": "2026-04-29T11:32:19.431Z",
+      "fijada": false
+    },
+    {
+      "titulo": "Apunte",
+      "nota": "RTO = tiempo de recuperación.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 27,
+      "id": "K1dFs3MwP8",
+      "lastUpdatedAt": "2026-04-29T11:32:18.231Z"
+    },
+    {
+      "titulo": "Reflexión larga",
+      "nota": "Programar es como aprender un idioma.\n\nAl principio cuesta mucho, pero con práctica constante empiezas a pensar directamente en ese lenguaje.\n\nEse es el punto donde realmente mejoras.",
+      "createdAt": "2026-04-29T08:06:30.395Z",
+      "order": 28,
+      "id": "X7nLp4CzR2",
+      "lastUpdatedAt": "2026-04-29T11:31:48.176Z"
+    },
+    {
+      "titulo": "",
+      "nota": "afafga",
+      "createdAt": "2026-04-30T07:48:12.737Z",
+      "lastUpdatedAt": "2026-04-30T07:48:12.737Z",
+      "order": 30,
+      "id": "Nu7SUxB6nbo",
+      "fijada": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

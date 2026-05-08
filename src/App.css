@@ -1,0 +1,139 @@
+.contenedorPrincipal {
+    width: min(90%, 1524px);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 1.5em 0 1em 0;
+    font-size: clamp(24px, 5vw, 48px);
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    background: #976287;
+    border-radius: 2px;
+    margin: 0.5rem auto 2rem;
+}
+
+.contenedorNotas {
+    margin: 0 auto !important;
+}
+
+.btnNuevaNota {
+    all: unset;
+    display: flex;
+    border-radius: 1em;
+    padding: 13px;
+    color: #202020;
+    background-color: #976287;
+    margin-bottom: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 8px;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+
+    &:hover {
+        background-color: #ad82a0;
+        transform: scale(1.04);
+    }
+
+    &:active{
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: white;
+            border-radius: inherit;
+            animation: resaltar 0.5s ease-out forwards;
+            pointer-events: none;
+        }
+    }
+}
+
+.noHayNotas {
+    text-align: center;
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+.grid {
+    column-gap: 1rem;
+    column-count: 2;
+    margin-bottom: 2rem;
+    z-index: 0;
+}
+
+@media (min-width: 600px) {
+    .grid {
+        column-count: 4;
+    }
+}
+@media (min-width: 900px) {
+    .grid {
+        column-count: 6;
+    }
+}
+@media (min-width: 1200px) {
+    .grid {
+        column-count: 8;
+    }
+}
+@media (min-width: 1536px) {
+    .grid {
+        column-count: 9;
+    }
+}
+
+.gridItem {
+    position: relative;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    z-index: 0;
+
+    &:active{
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: lightgray;
+            border-radius: inherit;
+            animation: resaltar 0.5s ease-out forwards;
+            pointer-events: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .btnNuevaNota {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@keyframes resaltar {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.08;
+    }
+    50% {
+        opacity: 0.15;
+    }
+    70% {
+        opacity: 0.08;
+    }
+    100% {
+        opacity: 0;
+    }
+}
